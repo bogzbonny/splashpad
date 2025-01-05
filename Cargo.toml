@@ -1,0 +1,17 @@
+[package]
+name = "splashpad"
+version = "0.0.1"
+edition = "2021"
+authors = ["Bogz Bonny <bogzbonny@protonmail.com>", "The Splashpad Developers"] 
+keywords = ["tui", "terminal", "playground"]
+description = "TUI rust playground using your $EDITOR of choice"
+documentation = "https://docs.rs/splashpad/latest/splashpad/"
+repository = "https://github.com/bogzbonny/splashpad"
+categories = ["command-line-interface", "command-line-utilities"]
+readme = "README.md"
+license = "MIT"
+
+
+[dependencies]
+tokio = "1.42.0"
+yeehaw = "0.1.0"
